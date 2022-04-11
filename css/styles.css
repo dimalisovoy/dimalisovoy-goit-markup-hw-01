@@ -225,7 +225,7 @@ body {
 }
 
 .footer {
-  background: #2f303a;
+  background-color: var(--title-text-color);
 }
 
 .footer-logo {
