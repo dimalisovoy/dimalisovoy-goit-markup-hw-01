@@ -256,7 +256,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--white-text-color);
+  color: var(--footer-color);
 }
 
 .address-mail:hover,
@@ -269,7 +269,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--white-text-color);
+  color: var(--footer-color);
 }
 
 .address-tel:hover,
