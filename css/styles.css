@@ -38,7 +38,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .text {
@@ -46,6 +46,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  text-transform: none;
 }
 
 /*header*/
@@ -54,7 +55,7 @@ body {
   color: #000000;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
 }
 
 .header-web {
@@ -118,7 +119,6 @@ body {
   font-size: 44px;
   line-height: 1, 36;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
   color: var(--white-text-color);
 }
 
@@ -137,6 +137,7 @@ body {
 }
 
 .hero-ation-title {
+  text-transform: uppercase;
   color: var(--title-text-color);
 }
 
@@ -145,6 +146,7 @@ body {
 }
 
 .hero-time-title {
+  text-transform: uppercase;
   color: var(--title-text-color);
 }
 
@@ -153,6 +155,7 @@ body {
 }
 
 .hero-botton-title {
+  text-transform: uppercase;
   color: var(--title-text-color);
 }
 
@@ -161,6 +164,7 @@ body {
 }
 
 .hero-tech-title {
+  text-transform: uppercase;
   color: var(--title-text-color);
 }
 
@@ -223,10 +227,11 @@ body {
 }
 
 .footer-logo {
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  color: #000000;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--white-text-color);
 }
 
 .footer-web {
@@ -238,15 +243,6 @@ body {
   color: var(--accent-color);
 }
 
-.footer-st {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--white-text-color);
-}
-
 .address {
   font-weight: 400;
   font-size: 14px;
@@ -255,7 +251,7 @@ body {
   color: var(--white-text-color);
 }
 
-.footer-mail {
+.address-mail {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -263,12 +259,12 @@ body {
   color: var(--white-text-color);
 }
 
-.footer-mail:hover,
-.footer-mail:focus {
+.address-mail:hover,
+.address-mail:focus {
   color: var(--accent-color);
 }
 
-.footer-tel {
+.address-tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -276,7 +272,7 @@ body {
   color: var(--white-text-color);
 }
 
-.footer-tel:hover,
-.footer-tel:focus {
+.address-tel:hover,
+.address-tel:focus {
   color: var(--accent-color);
 }
